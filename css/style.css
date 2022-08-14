@@ -1,0 +1,323 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+nav{
+    background-color: black;
+}
+nav a{
+			 
+    color: white;
+    display: inline-block;
+    padding: 10px 15px;
+    
+    font-size: 20px;
+ }
+  
+ 
+header a:hover {
+    background-color:rgba(160,160 , 160, 0.5)
+    color: black;
+}
+.searchicon {
+    float: right;
+}
+
+section{
+    text-align: center;
+    padding: 50px;
+
+}
+section h1{
+font-weight: 100px;
+}
+section p {
+
+}
+section p span {
+    background-color: black;
+    color: white;
+    padding: 2px 7px;
+}
+header{
+position: relative;
+}
+header section {
+    position: absolute;
+    top: 25%;
+    left: 2%;
+    color: white;
+    text-align: left;
+    
+}
+header section h3{
+font-size: 30px;
+}
+header section h1{
+font-size: 50px;
+letter-spacing: 2px;
+}
+header section button{
+    padding: 20px;
+    background-color:rgba(160,160 , 160, 0.5);
+    border: none;
+    font-weight: bold;
+}
+header section button:hover{
+    background-color:rgba(160,160 , 160, 0.7);
+}
+main{
+    background-color: #f1f1f1;
+}
+main #asideleft{
+display: inline-block;
+float: left;
+width: 60%;
+padding: 20px;
+background-color: #f1f1f1;
+
+
+}
+main #asideleft article {
+background-color: white;
+padding: 20px;
+margin: 20px 0px;
+}
+main #asideleft article h2{
+    text-align: center;
+
+}
+
+main #asideleft article .uu{
+    font-family: 'Open Sans';
+    text-align: left;
+    text-align: justify;
+}
+main #asideleft article p{
+text-align: center;
+padding: 20px 0px;
+}
+main #asideleft article .uu span{
+font-weight: bold;
+color: black;
+}
+main #asideleft article p span{
+    color: gray;
+}
+main #asideleft .button1{
+    padding: 20px;
+
+}
+main #asideleft .button1 .like{
+float: left;
+background-color: white;
+color: black;
+border: 1px solid gray;
+padding: 5px 5px;
+}
+main #asideleft .button1 .like:hover{
+background-color: lightgray;
+}
+
+main #asideleft .button1 .reb{
+    font-weight: bold;
+     padding: 7px 7px;
+float: right;
+background-color:black;
+color: white;
+border:none
+
+
+}
+main #asideleft .button1 .reb:hover{
+background-color: lightgray;
+color: black;
+}
+main #asideleft .button1 .reb span{
+background-color: white;
+padding: 5px 5px;
+color:black;
+}
+main #asideleft article .articlefooter{
+    padding: 25px 0px;
+}
+
+main #asideleft .articlefooter .img{
+float: left;
+width: 20%;
+display: inline-block;
+}
+
+main #asideleft .articlefooter .title{
+float: left;
+width: 80%;
+display: inline-block;
+
+}
+main #asideleft .articlefooter .title p{
+    text-align: left;
+    padding: 5px 5px;
+}
+
+main #asideright{
+    display: inline-block;
+    float: right;
+    width: 40%;
+    padding: 20px;
+    background-color: #f1f1f1;
+
+}
+.cl{
+    clear: both;
+    content: " ";
+}
+main #asideright #rightside{
+    padding: 20px 0px;
+
+}
+main #asideright #rightside div{
+background-color: black;
+color: white;
+padding: 15px;
+text-align: left;
+margin-top: -6px;
+}
+main #asideright #rightside div p{
+padding-bottom: 10px;
+}
+main #asideright article{
+margin-bottom: 20px;
+padding: 0px;
+}
+main #asideright article .heading{
+background-color: black;
+color: white;
+padding: 20px;
+}
+main #asideright article .body1{
+
+background-color: white;
+height: auto;
+overflow: auto;
+}
+main #asideright article .body1 .artitle{
+    padding: 20px;
+
+}
+main #asideright article .body1 .artitle .imgdes {
+float: left;
+width: 15%;
+}
+main #asideright article .body1 .artitle .textdes{
+float: right;
+width: 85%;
+padding: 0px 15px;
+}
+main #asideright article .body1 .artitle :hover{
+    background-color:gray ;
+}
+.cl{
+    clear: both;
+    content: " ";
+
+}
+main #asideright article .body2{
+    padding: 20px;
+    background-color: white;
+}
+main #asideright article .body2 p{
+     text-align: center;
+     background-color: #ccc;
+     padding: 70px ;
+
+}
+main #asideright article .body3{
+    padding: 20px;
+    background-color: white
+    ;
+}
+main #asideright article .body3 span{
+    background-color: #ccc;
+    margin: 3px;
+    display: inline-block;
+    padding: 0px 8px;
+}
+main #asideright article .body3 .span1{
+    background-color: black;
+    color: white;
+}main #asideright article .body4{
+    padding: 20px;
+    background-color: white;
+
+}
+main #asideright article .body4 img{
+    display: inline-block;
+    padding: 5px;
+    
+}
+main #asideright article .body5{
+    padding: 20px;
+    background-color: white;
+    font-size: 25px;
+}main #asideright article .body5 i:hover{
+    color: #616161;
+}
+main #asideright article .body6{
+    padding: 20px;
+    background-color: white;
+}
+main #asideright article .body6 form{
+
+}
+
+main #asideright article .body6 label{
+display: block;
+width: 100%;
+}
+
+main #asideright article .body6 input{
+display: block;
+width: 100%;
+margin: 20px 0px;
+padding: 20px;
+}
+
+main #asideright article .body6 button{
+    display: block;
+    background-color: #f44336;
+    text-align: center;
+    color:white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+}
+main #asideright article .body6 button:hover{
+    background-color: #616161;
+}
+footer{
+
+    background-color: #616161;
+    color: white;
+    padding: 30px;
+    border: none;
+
+}
+footer .u{
+background-color: black;
+color: white;
+padding: 20px;
+border: none;
+text-decoration: none;
+}
+footer p{
+font-family: 'Open Sans';
+padding: 45px 0px;
+font-size: 15px;
+
+}
+footer p a{
+    color: white;
+
+
+}
